@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "13.0"
   s.swift_version = "5.0"
 
-  s.source_files  = "Sources/**/*"
-
+  s.resource_bundles = {
+  'basicDataResources' => ['Sources/**/*']
+}
   s.frameworks    = "Foundation"
 end
