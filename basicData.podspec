@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "basicData"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "基础数据模块"
   s.description  = <<-DESC
     basicData 是管理pescore的离线包。
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
 
   s.resource_bundles = {
-  'basicDataResources' => ['Sources/**/*']
+  'basicDataResources' => ['*']
 }
   s.frameworks    = "Foundation"
 end
