@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
 
   s.resources = ['Resources/**/*']
+  s.license = { :type => 'MIT' } # 如果你不想提供文件
 
   s.frameworks    = "Foundation"
 end
