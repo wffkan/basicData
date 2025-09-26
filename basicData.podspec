@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "basicData"
-  s.version      = "1.1.16"
+  s.version      = "1.1.18"
   s.summary      = "基础数据模块"
   s.description  = <<-DESC
     basicData 是管理pescore的离线包。
